@@ -60,6 +60,12 @@ h2, .card p{
 
     border: 3px solid #fff;
     border-radius: 8px;
+    transition: .3s;
+}
+
+.btn-boxes .card img:hover{
+    background: #fff;
+    transition: .4s;
 }
 
 /*footer*/
