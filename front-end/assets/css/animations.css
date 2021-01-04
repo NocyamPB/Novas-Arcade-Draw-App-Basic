@@ -1,0 +1,20 @@
+@keyframes introTop{
+  from{ margin-top: -180px; opacity: 0.0; }
+  to{ margin-top: 0px;  opacity: 1.0; }
+} 
+
+@keyframes introBottom{
+  from{ margin-bottom: -180px; opacity: 0.0; }
+  to{ margin-bottom: 0px;  opacity: 1.0; }
+} 
+
+.background-top{
+  animation-name: introTop;
+  animation-duration: 1s;
+}
+
+footer{
+  animation-name: introBottom;
+  animation-duration: 1s;
+}
+
