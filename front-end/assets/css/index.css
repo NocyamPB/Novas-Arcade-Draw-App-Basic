@@ -19,7 +19,40 @@ body{
     overflow: hidden;
 }
 
-h2, .card p{
+/*CONTAINER*/
+.area-content{
+    z-index: 0;
+    padding: 247px 10px 40px 0;
+    overflow-y: scroll;
+    color: #fff;
+    width: 100%;
+    height: 92vh;
+    
+    scrollbar-color: #444 #111;
+    scrollbar-width: thin;
+}
+
+.area-content #box{
+    border-radius: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #aaa;
+    width: 100%;
+    padding: 7px;
+    background: #333;
+}
+
+.area-content::-webkit-scrollbar{
+    width: 7px;
+    background-color: #111;
+}
+
+.area-content::-webkit-scrollbar-thumb{
+    background-color: #444;
+}
+
+/*END CONTENT*/
+
+footer h2, h3, .card p{
     color: #fff;
     text-align: center;
 }
@@ -27,9 +60,10 @@ h2, .card p{
 .background-top{
     padding-top: 15px; 
     position: absolute;
+    z-index: 10;
     left: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #111;
     border-bottom: 3px solid #F9A900;
 }
 
@@ -75,18 +109,26 @@ footer h2{
 }
 
 footer{
+
     padding: 10px;
     position: absolute;
+    z-index: 2;
     background-color: rgba(0,0,0,0.4);
     border-top: 3px solid #F9A900;
     width: 100%;
     left: 0;
     bottom: 0;
+    background: #111;
 }
 
 /*mobile*/
 @media (max-width: 800px){  
-    .itens-up h2{
+    .area-content{
+        padding: 107px 20px 20px 20px;
+        height: 75vh;
+    }
+    
+    .background-top h3{
         font-size: 20px;
         width: 100%;
         position: fixed;
@@ -100,7 +142,7 @@ footer{
         bottom: 0;
         width: 100%;
         height: 160px;
-        background-color: rgba(0,0,0,0.4);
+        background-color: #111;
         border-top: 3px solid #F9A900;
         border-bottom: 0;
     }
@@ -128,22 +170,24 @@ footer{
     }
     
     footer{
+
         z-index: 0;
         position: absolute;
         top: 0;
         height: 90px;
         border-top: none; 
-        border-bottom: 3px solid #F9A900;
+        border-bottom: 3px solid #F9A900; 
     }
     
     footer h2{
         font-size: 15px;
         margin-top: 10px;
+        background: #111;
     }
 }
 
 /*resolution erro*/
-@media (max-height: 430px) or (max-width: 370px){
+@media (max-height: 470px) or (max-width: 370px){
     #erro-resolution{
         z-index: 100;
         top: 0;
