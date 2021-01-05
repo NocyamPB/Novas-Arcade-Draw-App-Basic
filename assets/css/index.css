@@ -38,7 +38,7 @@ body{
     border: 1px solid #aaa;
     width: 100%;
     padding: 7px;
-    background: #333;
+    background: rgba(60,60,60,0.555);
 }
 
 .area-content::-webkit-scrollbar{
@@ -51,7 +51,6 @@ body{
 }
 
 /*END CONTENT*/
-
 footer h2, h3, .card p{
     color: #fff;
     text-align: center;
@@ -109,7 +108,6 @@ footer h2{
 }
 
 footer{
-
     padding: 10px;
     position: absolute;
     z-index: 2;
@@ -170,7 +168,6 @@ footer{
     }
     
     footer{
-
         z-index: 0;
         position: absolute;
         top: 0;
@@ -187,7 +184,7 @@ footer{
 }
 
 /*resolution erro*/
-@media (max-height: 470px) or (max-width: 370px){
+@media screen and (max-height: 470px), screen and (max-width: 370px){
     #erro-resolution{
         z-index: 100;
         top: 0;
