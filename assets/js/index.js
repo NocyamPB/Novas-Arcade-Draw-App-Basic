@@ -81,6 +81,7 @@ async function getRandomNumbers(count, min, max) {
 }
 
 function printItens(id) {
+    textColor(id); 
     const container = document.getElementById('box')
     container.innerHTML = '<p>Itens:</p><br><p>Aguarde!</p>'
     raffle(id)
@@ -90,4 +91,11 @@ function printItens(id) {
             container.innerHTML += `<p>${item}</p>`
         })
     })
+}
+
+function textColor(idBox){
+    var hover = $('#hov-'+ idBox)
+    var card = $('.card').length
+    for(var i = 1 ; i < card; i++){ $('.card').attr('class', 'card') }
+    hover.attr('class','card hov-active')
 }
