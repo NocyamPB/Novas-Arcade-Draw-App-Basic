@@ -119,6 +119,15 @@ footer{
     background: #111;
 }
 
+/*hover-active*/
+.hov-active p{
+    color: #F9A900;
+}
+
+.hov-active img{
+    background: white;
+}
+
 /*mobile*/
 @media (max-width: 800px){  
     .area-content{
