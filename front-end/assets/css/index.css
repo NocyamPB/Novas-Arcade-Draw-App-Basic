@@ -3,10 +3,6 @@
     src: url(../fonts/retro_computer.ttf);
 }
 
-#erro-resolution{
-    display: none;
-}
-
 html{
     padding: 0;
     margin: 0;
@@ -121,8 +117,36 @@ footer{
     background: #111;
 }
 
-/*mobile*/
-@media (max-width: 800px){  
+/*Error Resolution*/
+#erro-resolution{
+    display: none;
+    position: absolute;
+    z-index: 100 !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#erro-resolution p{
+    position: absolute;
+    top: 46%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    color: #F9A900;
+}
+
+#erro-resolution img{
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 800px){  
     .area-content{
         padding: 107px 20px 20px 20px;
         height: 75vh;
@@ -170,7 +194,6 @@ footer{
     }
     
     footer{
-
         z-index: 0;
         position: absolute;
         top: 0;
@@ -187,28 +210,8 @@ footer{
 }
 
 /*resolution erro*/
-@media (max-height: 470px) or (max-width: 370px){
+@media screen and (max-height: 470px), screen and (max-width: 370px){
     #erro-resolution{
-        z-index: 100;
-        top: 0;
-        left: 0;
-        position: absolute;
-        display: block;
-    }
-    
-    #erro-resolution img{
-        width: 100vw;
-        height: 100vh;
-    }
-    
-    #erro-resolution p{
-        position: absolute;
-        top: 46%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        width: 100vw;
-        height: 100vh;
-        color: #F9A900;
+        display: block !important;
     }
 }
