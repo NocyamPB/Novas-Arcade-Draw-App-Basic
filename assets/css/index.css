@@ -21,6 +21,7 @@ body{
 
 /*CONTAINER*/
 .area-content{
+    margin: 0 auto;
     z-index: 0;
     padding: 247px 10px 40px 0;
     overflow-y: scroll;
@@ -128,6 +129,21 @@ footer{
     background: white;
 }
 
+/*important box incomum*/
+.area-content #box p#incomum{
+    color: #42FA49 !important;
+}
+
+/*important box raro*/
+.area-content #box p#raro{
+    color: #FEB53F !important;
+}
+
+/*important box epic*/
+.area-content #box p#epic{
+    color: #E62121 !important;
+}
+
 /*mobile*/
 @media (max-width: 800px){  
     .area-content{
@@ -193,7 +209,7 @@ footer{
 }
 
 /*resolution erro*/
-@media screen and (max-height: 470px), screen and (max-width: 370px){
+@media screen and (max-height: 470px), screen and (max-width: 366px){
     #erro-resolution{
         z-index: 100;
         top: 0;

@@ -185,79 +185,79 @@ var data = {
             "category": "common"
         },
         {
-            "name": "Crystal Elétrico",
+            "name": "<p id='incomum'> Crystal Elétrico </p>",
             "category": "unusual"
         },
         {
-            "name": "Crystal de Alma",
+            "name": "<p id='incomum'> Crystal de Alma </p>",
             "category": "unusual"
         },
         {
-            "name": "Crystal de Luz",
+            "name": "<p id='incomum'> Crystal de Luz </p>",
             "category": "unusual"
         },
         {
-            "name": "Crystal de Gelo",
+            "name": "<p id='incomum'> Crystal de Gelo </p>",
             "category": "unusual"
         },
         {
-            "name": "Pergaminho de Feitiço",
+            "name": "<p id='incomum'> Pergaminho de Feitiço </p>",
             "category": "unusual"
         },
         {
-            "name": "Espelho de Gustav",
+            "name": "<p id='incomum'> Espelho de Gustav </p>",
             "category": "unusual"
         },
         {
-            "name": "Anel de Guilda",
+            "name": "<p id='incomum'> Caneca de Carvalho Florido </p>",
             "category": "unusual"
         },
         {
-            "name": "Caneca de Carvalho Florido",
+            "name": "<p id='incomum'> Anel de Guilda </p>",
             "category": "unusual"
         },
         {
-            "name": "Crystal de Mana",
+            "name": "<p id='raro'> Crystal de Mana </p>",
             "category": "rare"
         },
         {
-            "name": "Capítulo da Coleção Sunlare",
+            "name": "<p id='raro'> Capítulo da Coleção Sunlare </p>",
             "category": "rare"
         },
         {
-            "name": "Capítulo da Coleção Whinny",
+            "name": "<p id='raro'> Capítulo da Coleção Whinny </p>",
             "category": "rare"
         },
         {
-            "name": "Erva de Galto",
+            "name": "<p id='raro'> Erva de Galto </p>",
             "category": "rare"
         },
         {
-            "name": "Gelogumelo",
+            "name": "<p id='raro'> Gelogumelo </p>",
             "category": "rare"
         },
         {
-            "name": "Moeda de Prata",
+            "name": "<p id='raro'> Moeda de Prata </p>",
             "category": "rare"
         },
         {
-            "name": "Ativiusgumelo",
+            "name": "<p id='raro'> Ativiusgumelo </p>",
             "category": "rare"
         },
         {
-            "name": "Colar Invernal",
+            "name": "<p id='epic'> Colar Invernal </p>",
             "category": "epic"
         },
         {
-            "name": "Ampulheta",
+            "name": "<p id='epic'> Ampulheta </p>",
             "category": "epic"
         },
         {
-            "name": "Akuma",
+            "name": "<p id='epic'> Akuma </p>",
             "category": "epic"
         },
         {
-            "name": "Bússola da Lua Branca",
+            "name": "<p id='epic'> Bússola da Lua Branca </p>",
             "category": "epic"
         }
     ]
