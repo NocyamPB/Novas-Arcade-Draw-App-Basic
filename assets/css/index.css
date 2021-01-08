@@ -23,7 +23,7 @@ body{
 .area-content{
     margin: 0 auto;
     z-index: 0;
-    padding: 247px 10px 40px 0;
+    padding: 220px 10px 40px 0;
     overflow-y: scroll;
     color: #fff;
     width: 100%;
@@ -33,13 +33,19 @@ body{
     scrollbar-width: thin;
 }
 
-.area-content #box{
-    border-radius: 10px;
+.area-content #box h4{
+    text-align: center;
+    font-size: 20px;
+    margin: -4px;
+}
+
+.area-content #box p{
+    background: #805753;
+    border-radius: 4px;
+    border: 3px solid black;
+    box-shadow: 5px 6px 1px black;
     margin-bottom: 14px;
-    border: 1px solid #aaa;
     width: 100%;
-    padding: 7px;
-    background: rgba(60,60,60,0.555);
 }
 
 .area-content::-webkit-scrollbar{
@@ -63,6 +69,7 @@ footer h2, h3, .card p{
     z-index: 10;
     left: 0;
     width: 100%;
+    height: 200px;
     background-color: #111;
     border-bottom: 3px solid #F9A900;
 }
@@ -73,24 +80,27 @@ footer h2, h3, .card p{
     justify-content: center;
 }
 
+.container h3{
+    font-size: 25px;
+}
+
 /*style boxes*/
 .btn-boxes .card p{
-    font-size: 0.81rem;
+    font-size: 0.71rem;
 }
 
 .btn-boxes .card{
     margin: 15px;
-    width: 85px;
+    width: 75px;
     border: none;
     float: left;
     background: none;
 }
 
 .btn-boxes .card img{
-    width: 82px;
+    width:75px;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #fff;
 
     border: 3px solid #fff;
     border-radius: 8px;
@@ -99,12 +109,12 @@ footer h2, h3, .card p{
 
 .btn-boxes .card img:hover{
     background: #fff;
-    transition: .4s;
+    transition: .33s;
 }
 
 /*footer*/
 footer h2{
-    font-size: 20px;
+    font-size: 16px;
     color: #F9A900 !important;
 }
 
@@ -127,6 +137,16 @@ footer{
 
 .hov-active img{
     background: white;
+    box-shadow: 0px 0px 12px white;
+}
+
+/*itens*/
+.area-content #box p img{
+    width: 45px;
+    margin: 10px;
+    background: #2E1F1E;
+    padding: 5px;
+    border: 3px solid black;
 }
 
 /*important box incomum*/
@@ -147,8 +167,8 @@ footer{
 /*mobile*/
 @media (max-width: 800px){  
     .area-content{
-        padding: 107px 20px 20px 20px;
-        height: 75vh;
+        padding: 110px 20px 20px 20px;
+        height: 77.5vh;
     }
     
     .background-top h3{
@@ -164,7 +184,7 @@ footer{
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 160px;
+        height: 145px;
         background-color: #111;
         border-top: 3px solid #F9A900;
         border-bottom: 0;
@@ -172,7 +192,7 @@ footer{
     .itens-up{
         width: 100%;
         position: fixed;
-        bottom: 10px;
+        bottom: 0px;
     }
     
     .btn-boxes .card{

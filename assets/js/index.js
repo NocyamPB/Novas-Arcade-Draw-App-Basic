@@ -83,12 +83,12 @@ async function getRandomNumbers(count, min, max) {
 function printItens(id) {
     textColor(id); 
     const container = document.getElementById('box')
-    container.innerHTML = '<p>Itens:</p><br><p>Aguarde!</p>'
+    container.innerHTML = '<h4>Itens:</h4><br><p>Aguarde!</p>'
     raffle(id)
     .then(itens => {
-        container.innerHTML = '<p>Itens:</p><br>'
+        container.innerHTML = '<h4>Itens:</h4><br>'
         itens.forEach(item => {
-            container.innerHTML += `<p>${item}</p>`
+            container.innerHTML += `<p class=''><img src='assets/img/itens/${item}.png'>${item}</p>`
         })
     })
 }
@@ -96,6 +96,6 @@ function printItens(id) {
 function textColor(idBox){
     var hover = $('#hov-'+ idBox)
     var card = $('.card').length
-    for(var i = 1 ; i < card; i++){ $('.card').attr('class', 'card') }
+    for(let i = 1 ; i < card; i++){ $('.card').attr('class', 'card') }
     hover.attr('class','card hov-active')
 }
