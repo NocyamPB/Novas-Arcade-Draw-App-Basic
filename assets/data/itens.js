@@ -185,7 +185,7 @@ var data = {
             "category": "common"
         },
         {
-            "name": "Crystal Elétrico",
+            "name": "Crystal Eletrico",
             "category": "unusual"
         },
         {
@@ -201,7 +201,7 @@ var data = {
             "category": "unusual"
         },
         {
-            "name": "Pergaminho de Feitiço",
+            "name": "Pergaminho de Feitico",
             "category": "unusual"
         },
         {
@@ -221,11 +221,11 @@ var data = {
             "category": "rare"
         },
         {
-            "name": "Capítulo da Coleção Sunlare",
+            "name": "Capítulo da Colecao Sunlare",
             "category": "rare"
         },
         {
-            "name": "Capítulo da Coleção Whinny",
+            "name": "Capítulo da Colecao Whinny",
             "category": "rare"
         },
         {
